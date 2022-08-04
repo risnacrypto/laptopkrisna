@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "903316503856",
+    "project_id": "laptop-krisna",
+    "storage_bucket": "laptop-krisna.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:903316503856:android:12c04d284d2d5bb2c15cf5",
+        "android_client_info": {
+          "package_name": "com.example.laptop_krisna"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "903316503856-de3rft06632h3so49a4i6dp2uuhevu0u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGUPY386f_Q_yEhaTm20jg1t4MtnqOKWs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "903316503856-de3rft06632h3so49a4i6dp2uuhevu0u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

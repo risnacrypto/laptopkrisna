@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/lab komputer/krisna/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1695" />
+        <entry key="..\:/lab komputer/krisna/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1695" />
+        <entry key="..\:/lab komputer/krisna/app/src/main/res/layout/activity_adapter_kalkulator.xml" value="0.36666666666666664" />
+        <entry key="..\:/lab komputer/krisna/app/src/main/res/layout/activity_bangun_datar.xml" value="0.35260416666666666" />
+        <entry key="..\:/lab komputer/krisna/app/src/main/res/layout/activity_bangun_ruang.xml" value="0.21331521739130435" />
+        <entry key="..\:/lab komputer/krisna/app/src/main/res/layout/activity_belah_ketupat.xml" value="0.33" />
+        <entry key="..\:/lab komputer/krisna/app/src/main/res/layout/activity_checkbox.xml" value="0.18" />
+        <entry key="..\:/lab komputer/krisna/app/src/main/res/layout/activity_custom_list_view.xml" value="0.3625" />
+        <entry key="..\:/lab komputer/krisna/app/src/main/res/layout/activity_datar_list.xml" value="0.35260416666666666" />
+        <entry key="..\:/lab komputer/krisna/app/src/main/res/layout/activity_jajar_genjang.xml" value="0.33" />
+        <entry key="..\:/lab komputer/krisna/app/src/main/res/layout/activity_kalkulator_luas.xml" value="0.36666666666666664" />
+        <entry key="..\:/lab komputer/krisna/app/src/main/res/layout/activity_layang_layang.xml" value="0.21331521739130435" />
+        <entry key="..\:/lab komputer/krisna/app/src/main/res/layout/activity_layanglayang.xml" value="0.36666666666666664" />
+        <entry key="..\:/lab komputer/krisna/app/src/main/res/layout/activity_lingkaran.xml" value="0.33" />
+        <entry key="..\:/lab komputer/krisna/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/lab komputer/krisna/app/src/main/res/layout/activity_loginactivity.xml" value="0.17831813576494426" />
+        <entry key="..\:/lab komputer/krisna/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/lab komputer/krisna/app/src/main/res/layout/activity_main2.xml" value="0.33" />
+        <entry key="..\:/lab komputer/krisna/app/src/main/res/layout/activity_main3.xml" value="0.33" />
+        <entry key="..\:/lab komputer/krisna/app/src/main/res/layout/activity_main4.xml" value="0.3625" />
+        <entry key="..\:/lab komputer/krisna/app/src/main/res/layout/activity_main5.xml" value="0.32916666666666666" />
+        <entry key="..\:/lab komputer/krisna/app/src/main/res/layout/activity_main6.xml" value="0.365625" />
+        <entry key="..\:/lab komputer/krisna/app/src/main/res/layout/activity_persegi.xml" value="0.36666666666666664" />
+        <entry key="..\:/lab komputer/krisna/app/src/main/res/layout/activity_persegi_panjang.xml" value="0.33" />
+        <entry key="..\:/lab komputer/krisna/app/src/main/res/layout/activity_register.xml" value="0.33" />
+        <entry key="..\:/lab komputer/krisna/app/src/main/res/layout/activity_ruang_list.xml" value="0.21331521739130435" />
+        <entry key="..\:/lab komputer/krisna/app/src/main/res/layout/activity_segitiga.xml" value="0.33" />
+        <entry key="..\:/lab komputer/krisna/app/src/main/res/layout/activity_trapesium.xml" value="0.33" />
+        <entry key="..\:/lab komputer/krisna/app/src/main/res/layout/color.xml" value="0.365625" />
+        <entry key="..\:/lab komputer/krisna/app/src/main/res/layout/content_main.xml" value="0.17831813576494426" />
+        <entry key="..\:/lab komputer/krisna/app/src/main/res/layout/fragment_first.xml" value="0.36666666666666664" />
+        <entry key="..\:/lab komputer/krisna/app/src/main/res/layout/fragment_second.xml" value="0.36666666666666664" />
+        <entry key="..\:/lab komputer/krisna/app/src/main/res/layout/register_revisi.xml" value="0.18697916666666667" />
+        <entry key="..\:/lab komputer/krisna/app/src/main/res/layout/strings.xml" value="0.36666666666666664" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
