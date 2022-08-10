@@ -9,33 +9,34 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-public class Lingkaran extends AppCompatActivity {
-    EditText ljari;
-    Button lhitung;
-    TextView lhasil;
+public class bola extends AppCompatActivity {
+    EditText bojari;
+    Button bohitung;
+    TextView bohasil;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_lingkaran);
+        setContentView(R.layout.activity_bola);
+        bojari= (EditText) findViewById(R.id.jari3);
+        bohitung=(Button)findViewById(R.id.hitung17);
+        bohasil=(TextView)findViewById(R.id.hasil17);
 
-        ljari= (EditText) findViewById(R.id.jari);
-        lhitung=(Button)findViewById(R.id.hitung6);
-        lhasil=(TextView)findViewById(R.id.hasil6);
-
-        lhitung.setOnClickListener(new View.OnClickListener() {
+        bohitung.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 double bilangan1=0.0,hasil;
-                if (ljari.getText().toString().equals("")){
+                if (bojari.getText().toString().equals("")){
                     Toast.makeText(getApplicationContext(), "Jari-jari belum di isi",
                             Toast.LENGTH_LONG).show();
                 }
                 else {
-                    bilangan1 = Double.valueOf(ljari.getText().toString());
-                    hasil= (bilangan1*bilangan1)*3.14;
+                    bilangan1 = Double.valueOf(bojari.getText().toString());
+                    hasil= 4*3.14*bilangan1*bilangan1;
                     String hasill =String.valueOf(hasil);
-                    lhasil.setText(hasill);
+                    bohasil.setText(hasill);
+
                 }
+
 
             }
         });

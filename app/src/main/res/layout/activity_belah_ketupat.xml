@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/pearl"
     tools:context=".BelahKetupat">
 
     <TextView
@@ -35,7 +36,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="9dp"
-        android:layout_marginEnd="24dp"
+        android:layout_marginEnd="28dp"
         android:layout_marginBottom="272dp"
         android:ems="10"
         android:inputType="number"
@@ -70,7 +71,7 @@
         android:id="@+id/textView28"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="264dp"
+        android:layout_marginEnd="244dp"
         android:layout_marginBottom="108dp"
         android:text="Hasil :"
         android:textColor="@color/black"
@@ -82,7 +83,7 @@
         android:id="@+id/hasil7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="176dp"
+        android:layout_marginStart="208dp"
         android:layout_marginBottom="108dp"
         android:text="0"
         android:textColor="@color/black"
@@ -96,19 +97,20 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="176dp"
         android:layout_marginEnd="177dp"
-        android:layout_marginBottom="428dp"
-        android:text="TextView"
+        android:layout_marginBottom="424dp"
+        android:text="Masukan panjang d1 dan d2 :"
+        android:textSize="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.549"
         app:layout_constraintStart_toStartOf="parent" />
 
     <ImageView
         android:id="@+id/imageView7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="109dp"
-        android:layout_marginBottom="2dp"
+        android:layout_marginEnd="120dp"
+        android:layout_marginBottom="12dp"
         app:layout_constraintBottom_toTopOf="@+id/textView26"
         app:layout_constraintEnd_toEndOf="parent"
         app:srcCompat="@drawable/belah" />

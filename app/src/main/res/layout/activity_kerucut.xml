@@ -5,73 +5,61 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/pearl"
-    tools:context=".PersegiPanjang">
+    tools:context=".kerucut">
 
     <TextView
-        android:id="@+id/hasil2"
+        android:id="@+id/textView50"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="176dp"
-        android:layout_marginBottom="136dp"
-        android:text="0"
-        android:textColor="@color/black"
-        android:textSize="30dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <TextView
-        android:id="@+id/textView9"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="256dp"
-        android:layout_marginBottom="136dp"
+        android:layout_marginEnd="236dp"
+        android:layout_marginBottom="76dp"
         android:text="Hasil :"
         android:textColor="@color/black"
         android:textSize="30dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
+    <TextView
+        android:id="@+id/hasil12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="196dp"
+        android:layout_marginBottom="76dp"
+        android:text="0"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
     <Button
-        android:id="@+id/hitung2"
+        android:id="@+id/hitung12"
         android:layout_width="120dp"
         android:layout_height="64dp"
-        android:layout_marginEnd="140dp"
-        android:layout_marginBottom="188dp"
+        android:layout_marginEnd="144dp"
+        android:layout_marginBottom="148dp"
         android:text="Hitung"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
     <TextView
-        android:id="@+id/textView7"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="256dp"
-        android:layout_marginBottom="360dp"
-        android:text="Panjang:"
+        android:id="@+id/textView49"
+        android:layout_width="169dp"
+        android:layout_height="38dp"
+        android:layout_marginEnd="236dp"
+        android:layout_marginBottom="268dp"
+        android:text="Garis pelukis:"
         android:textColor="@color/black"
-        android:textSize="30dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
-
-    <TextView
-        android:id="@+id/textView8"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="256dp"
-        android:layout_marginBottom="296dp"
-        android:text="Lebar:"
-        android:textColor="@color/black"
-        android:textSize="30dp"
+        android:textSize="28dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
     <EditText
-        android:id="@+id/panjang"
+        android:id="@+id/jari4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="9dp"
-        android:layout_marginEnd="40dp"
-        android:layout_marginBottom="352dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="320dp"
         android:ems="10"
         android:inputType="number"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -79,39 +67,51 @@
         app:layout_constraintStart_toEndOf="@+id/textView4" />
 
     <EditText
-        android:id="@+id/lebar"
+        android:id="@+id/gp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="9dp"
-        android:layout_marginEnd="40dp"
-        android:layout_marginBottom="288dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="260dp"
         android:ems="10"
         android:inputType="number"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/textView4" />
 
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="396dp"
-        android:layout_height="201dp"
-        android:layout_marginBottom="8dp"
-        app:layout_constraintBottom_toTopOf="@+id/textView6"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.466"
-        app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/persegipanjang" />
-
     <TextView
-        android:id="@+id/textView6"
+        android:id="@+id/textView46"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="176dp"
         android:layout_marginEnd="177dp"
-        android:layout_marginBottom="476dp"
-        android:text="Masukan panjang dan lebar dari persegi panjang : "
+        android:layout_marginBottom="448dp"
+        android:text="Masukan jari-jari dan garis pelukis (garis miring) :"
         android:textSize="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="188dp"
+        android:layout_height="248dp"
+        android:layout_marginEnd="112dp"
+        android:layout_marginBottom="467dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/kerucut" />
+
+    <TextView
+        android:id="@+id/textView48"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="236dp"
+        android:layout_marginBottom="324dp"
+        android:text="Jari-Jari:"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

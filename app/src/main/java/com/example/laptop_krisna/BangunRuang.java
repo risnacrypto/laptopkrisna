@@ -10,8 +10,8 @@ import android.widget.AdapterView;
 import android.widget.ListView;
 
 public class BangunRuang extends AppCompatActivity {
-    String ruangList[]={"Kubus","Balok","Tabung","kerucut","Prisma","Limas","bola"};
-    int ruangImages[] = {R.drawable.kubus, R.drawable.balok, R.drawable.tabung, R.drawable.kerucut, R.drawable.prisma, R.drawable.limas, R.drawable.bola};
+    String ruangList[]={"Kubus","Balok","Tabung","kerucut","Prisma","Limas Persegi","limas persegi panjang ","limas Segitiga","bola"};
+    int ruangImages[] = {R.drawable.kubus, R.drawable.balok, R.drawable.tabung, R.drawable.kerucut, R.drawable.prisma, R.drawable.limaspersegi,R.drawable.limaspersegipanjang,R.drawable.limassegitiga, R.drawable.bola};
     ListView listView;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,23 +24,25 @@ public class BangunRuang extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int i, long id) {
                 Log.i("CUSTOM_LIST_VIEW", "Item is clicked @i ::" + i);
-                if(i==0) {
-                    startActivity(new Intent(BangunRuang.this,Persegi.class));
 
+                if(i==0) {
+                    startActivity(new Intent(BangunRuang.this,kubus.class));
                 }else if (i==1){
-                    startActivity(new Intent(BangunRuang.this,PersegiPanjang.class));
+                    startActivity(new Intent(BangunRuang.this,balok.class));
                 }else if (i==2){
-                    startActivity(new Intent(BangunRuang.this,Segitiga.class));
+                    startActivity(new Intent(BangunRuang.this,tabung.class));
                 }else if (i==3){
-                    startActivity(new Intent(BangunRuang.this,JajarGenjang.class));
+                    startActivity(new Intent(BangunRuang.this,kerucut.class));
                 }else if (i==4){
-                    startActivity(new Intent(BangunRuang.this,Trapesium.class));
+                    startActivity(new Intent(BangunRuang.this,prisma.class));
                 }else if (i==5){
-                    startActivity(new Intent(BangunRuang.this,Lingkaran.class));
+                    startActivity(new Intent(BangunRuang.this,limaspersegi.class));
                 }else if (i==6){
-                    startActivity(new Intent(BangunRuang.this,BelahKetupat.class));
+                    startActivity(new Intent(BangunRuang.this,limaspersegipanjang.class));
                 }else if (i==7){
-                    startActivity(new Intent(BangunRuang.this,layanglayang.class));
+                    startActivity(new Intent(BangunRuang.this,limassegitiga.class));
+                }else if (i==8){
+                    startActivity(new Intent(BangunRuang.this, bola.class));
                 }
             }
 

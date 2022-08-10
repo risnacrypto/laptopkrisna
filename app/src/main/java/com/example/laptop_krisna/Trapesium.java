@@ -7,6 +7,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class Trapesium extends AppCompatActivity {
     EditText tpa,tpb,ttinggi;
@@ -27,13 +28,25 @@ public class Trapesium extends AppCompatActivity {
         thitung.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                double bilangan1,bilangan2,bilangan3,hasil;
-                bilangan1=Double.valueOf(tpa.getText().toString());
-                bilangan2=Double.valueOf(tpb.getText().toString());
-                bilangan3=Double.valueOf(ttinggi.getText().toString());
-                hasil= (bilangan1+bilangan2)/2*bilangan3;
-                String hasill =String.valueOf(hasil);
-                thasil.setText(hasill);
+                double bilangan1=0.0,bilangan2=0.0,bilangan3=0.0,hasil;
+                if (tpa.getText().toString().equals("")){
+                    Toast.makeText(getApplicationContext(), "Panjang alas atas belum di isi",
+                            Toast.LENGTH_LONG).show();
+                } else if (tpb.getText().toString().equals("")) {
+                    Toast.makeText(getApplicationContext(), "Panjang alas bawah belum di isi",
+                            Toast.LENGTH_LONG).show();
+                }else if (ttinggi.getText().toString().equals("")) {
+                    Toast.makeText(getApplicationContext(), "Tinggi belum di isi",
+                            Toast.LENGTH_LONG).show();
+                }
+                else {
+                    bilangan1 = Double.valueOf(tpa.getText().toString());
+                    bilangan2 = Double.valueOf(tpb.getText().toString());
+                    bilangan3 = Double.valueOf(ttinggi.getText().toString());
+                    hasil= (bilangan1+bilangan2)/2*bilangan3;
+                    String hasill =String.valueOf(hasil);
+                    thasil.setText(hasill);
+                }
 
             }
         });

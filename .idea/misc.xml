@@ -6,17 +6,29 @@
         <entry key="..\:/lab komputer/krisna/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1695" />
         <entry key="..\:/lab komputer/krisna/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1695" />
         <entry key="..\:/lab komputer/krisna/app/src/main/res/layout/activity_adapter_kalkulator.xml" value="0.36666666666666664" />
+        <entry key="..\:/lab komputer/krisna/app/src/main/res/layout/activity_balok.xml" value="0.3625" />
         <entry key="..\:/lab komputer/krisna/app/src/main/res/layout/activity_bangun_datar.xml" value="0.35260416666666666" />
         <entry key="..\:/lab komputer/krisna/app/src/main/res/layout/activity_bangun_ruang.xml" value="0.21331521739130435" />
-        <entry key="..\:/lab komputer/krisna/app/src/main/res/layout/activity_belah_ketupat.xml" value="0.33" />
+        <entry key="..\:/lab komputer/krisna/app/src/main/res/layout/activity_belah_ketupat.xml" value="0.25" />
+        <entry key="..\:/lab komputer/krisna/app/src/main/res/layout/activity_bola.xml" value="0.36666666666666664" />
+        <entry key="..\:/lab komputer/krisna/app/src/main/res/layout/activity_bolasss.xml" value="0.21331521739130435" />
         <entry key="..\:/lab komputer/krisna/app/src/main/res/layout/activity_checkbox.xml" value="0.18" />
         <entry key="..\:/lab komputer/krisna/app/src/main/res/layout/activity_custom_list_view.xml" value="0.3625" />
         <entry key="..\:/lab komputer/krisna/app/src/main/res/layout/activity_datar_list.xml" value="0.35260416666666666" />
         <entry key="..\:/lab komputer/krisna/app/src/main/res/layout/activity_jajar_genjang.xml" value="0.33" />
-        <entry key="..\:/lab komputer/krisna/app/src/main/res/layout/activity_kalkulator_luas.xml" value="0.36666666666666664" />
+        <entry key="..\:/lab komputer/krisna/app/src/main/res/layout/activity_kalkulator_luas.xml" value="0.22" />
+        <entry key="..\:/lab komputer/krisna/app/src/main/res/layout/activity_kerucut.xml" value="0.3625" />
+        <entry key="..\:/lab komputer/krisna/app/src/main/res/layout/activity_kubus.xml" value="0.36666666666666664" />
         <entry key="..\:/lab komputer/krisna/app/src/main/res/layout/activity_layang_layang.xml" value="0.21331521739130435" />
         <entry key="..\:/lab komputer/krisna/app/src/main/res/layout/activity_layanglayang.xml" value="0.36666666666666664" />
-        <entry key="..\:/lab komputer/krisna/app/src/main/res/layout/activity_lingkaran.xml" value="0.33" />
+        <entry key="..\:/lab komputer/krisna/app/src/main/res/layout/activity_limas.xml" value="0.36666666666666664" />
+        <entry key="..\:/lab komputer/krisna/app/src/main/res/layout/activity_limaspersegi.xml" value="0.36666666666666664" />
+        <entry key="..\:/lab komputer/krisna/app/src/main/res/layout/activity_limaspersegipanjang.xml" value="0.36666666666666664" />
+        <entry key="..\:/lab komputer/krisna/app/src/main/res/layout/activity_limaspersegipanjang2.xml" value="0.36666666666666664" />
+        <entry key="..\:/lab komputer/krisna/app/src/main/res/layout/activity_limaspersegipanjangs.xml" value="0.21331521739130435" />
+        <entry key="..\:/lab komputer/krisna/app/src/main/res/layout/activity_limassegitiga.xml" value="0.36666666666666664" />
+        <entry key="..\:/lab komputer/krisna/app/src/main/res/layout/activity_limassegitigas.xml" value="0.25" />
+        <entry key="..\:/lab komputer/krisna/app/src/main/res/layout/activity_lingkaran.xml" value="0.36666666666666664" />
         <entry key="..\:/lab komputer/krisna/app/src/main/res/layout/activity_login.xml" value="0.25" />
         <entry key="..\:/lab komputer/krisna/app/src/main/res/layout/activity_loginactivity.xml" value="0.17831813576494426" />
         <entry key="..\:/lab komputer/krisna/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
@@ -27,9 +39,11 @@
         <entry key="..\:/lab komputer/krisna/app/src/main/res/layout/activity_main6.xml" value="0.365625" />
         <entry key="..\:/lab komputer/krisna/app/src/main/res/layout/activity_persegi.xml" value="0.36666666666666664" />
         <entry key="..\:/lab komputer/krisna/app/src/main/res/layout/activity_persegi_panjang.xml" value="0.33" />
+        <entry key="..\:/lab komputer/krisna/app/src/main/res/layout/activity_prisma.xml" value="0.36666666666666664" />
         <entry key="..\:/lab komputer/krisna/app/src/main/res/layout/activity_register.xml" value="0.33" />
         <entry key="..\:/lab komputer/krisna/app/src/main/res/layout/activity_ruang_list.xml" value="0.21331521739130435" />
         <entry key="..\:/lab komputer/krisna/app/src/main/res/layout/activity_segitiga.xml" value="0.33" />
+        <entry key="..\:/lab komputer/krisna/app/src/main/res/layout/activity_tabung.xml" value="0.3625" />
         <entry key="..\:/lab komputer/krisna/app/src/main/res/layout/activity_trapesium.xml" value="0.33" />
         <entry key="..\:/lab komputer/krisna/app/src/main/res/layout/color.xml" value="0.365625" />
         <entry key="..\:/lab komputer/krisna/app/src/main/res/layout/content_main.xml" value="0.17831813576494426" />

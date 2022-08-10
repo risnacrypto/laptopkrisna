@@ -5,70 +5,49 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/pearl"
-    tools:context=".kubus">
+    tools:context=".bola">
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/textView67"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="276dp"
-        android:layout_marginBottom="304dp"
-        android:text="SIsi :"
-        android:textSize="30dp"
+        android:layout_marginEnd="256dp"
+        android:layout_marginBottom="312dp"
+        android:text="Jari-Jari:"
         android:textColor="@color/black"
+        android:textSize="30dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
     <EditText
-        android:id="@+id/sisi"
+        android:id="@+id/jari3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginBottom="296dp"
+        android:layout_marginStart="9dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="304dp"
         android:ems="10"
         android:inputType="number"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/textView4" />
 
     <Button
-        android:id="@+id/hitung"
+        android:id="@+id/hitung17"
         android:layout_width="120dp"
         android:layout_height="64dp"
-        android:layout_marginEnd="144dp"
+        android:layout_marginEnd="140dp"
         android:layout_marginBottom="208dp"
         android:text="Hitung"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="238dp"
-        android:layout_height="234dp"
-        android:layout_marginEnd="84dp"
-        android:layout_marginBottom="460dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:srcCompat="@drawable/persegi" />
-
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/textView69"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="124dp"
-        android:layout_marginBottom="440dp"
-        android:text="Masukan sisi dari persegi:"
-        android:textSize="16dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <TextView
-        android:id="@+id/textView5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="264dp"
-        android:layout_marginBottom="132dp"
+        android:layout_marginEnd="256dp"
+        android:layout_marginBottom="136dp"
         android:text="Hasil :"
         android:textColor="@color/black"
         android:textSize="30dp"
@@ -76,11 +55,11 @@
         app:layout_constraintEnd_toEndOf="parent" />
 
     <TextView
-        android:id="@+id/hasil"
+        android:id="@+id/hasil17"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="176dp"
-        android:layout_marginBottom="132dp"
+        android:layout_marginBottom="136dp"
         android:text="0"
         android:textColor="@color/black"
         android:textSize="30dp"
@@ -88,10 +67,25 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
-        android:id="@+id/textView70"
+        android:id="@+id/textView64"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        tools:layout_editor_absoluteX="205dp"
-        tools:layout_editor_absoluteY="638dp" />
+        android:layout_marginStart="176dp"
+        android:layout_marginEnd="177dp"
+        android:layout_marginBottom="436dp"
+        android:text="Masukan jari-jari dari bola :"
+        android:textSize="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="263dp"
+        android:layout_height="214dp"
+        android:layout_marginEnd="74dp"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView64"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/bola" />
 </androidx.constraintlayout.widget.ConstraintLayout>

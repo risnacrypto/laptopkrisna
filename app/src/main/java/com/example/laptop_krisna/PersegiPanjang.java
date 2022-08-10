@@ -7,6 +7,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class PersegiPanjang extends AppCompatActivity {
     EditText ppanjang,plebar;
@@ -25,13 +26,22 @@ public class PersegiPanjang extends AppCompatActivity {
         pphitung.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                double bilangan1,bilangan2,hasil;
-                bilangan1=Double.valueOf(ppanjang.getText().toString());
-                bilangan2=Double.valueOf(plebar.getText().toString());
+                double bilangan1=0.0,bilangan2=0.0,hasil;
+                if (ppanjang.getText().toString().equals("")){
+                    Toast.makeText(getApplicationContext(), "Panjang belum di isi",
+                            Toast.LENGTH_LONG).show();
+                } else if (plebar.getText().toString().equals("")) {
+                    Toast.makeText(getApplicationContext(), "Lebar belum di isi",
+                            Toast.LENGTH_LONG).show();
+                }
+                   else{
+                        bilangan1 = Double.valueOf(ppanjang.getText().toString());
+                        bilangan2 = Double.valueOf(plebar.getText().toString());
+                    hasil= bilangan1*bilangan2;
+                    String hasill =String.valueOf(hasil);
+                    pphasil.setText(hasill);
 
-                hasil= bilangan1*bilangan2;
-                String hasill =String.valueOf(hasil);
-                pphasil.setText(hasill);
+                }
 
             }
         });

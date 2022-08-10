@@ -5,86 +5,86 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/pearl"
-    tools:context=".PersegiPanjang">
+    tools:context=".tabung">
 
     <TextView
-        android:id="@+id/hasil2"
+        android:id="@+id/textView45"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="176dp"
-        android:layout_marginBottom="136dp"
-        android:text="0"
-        android:textColor="@color/black"
-        android:textSize="30dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <TextView
-        android:id="@+id/textView9"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="256dp"
-        android:layout_marginBottom="136dp"
+        android:layout_marginEnd="252dp"
+        android:layout_marginBottom="76dp"
         android:text="Hasil :"
         android:textColor="@color/black"
         android:textSize="30dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
+    <TextView
+        android:id="@+id/hasil11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="180dp"
+        android:layout_marginBottom="76dp"
+        android:text="0"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
     <Button
-        android:id="@+id/hitung2"
+        android:id="@+id/hitung11"
         android:layout_width="120dp"
         android:layout_height="64dp"
-        android:layout_marginEnd="140dp"
-        android:layout_marginBottom="188dp"
+        android:layout_marginEnd="144dp"
+        android:layout_marginBottom="148dp"
         android:text="Hitung"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
-    <TextView
-        android:id="@+id/textView7"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="256dp"
-        android:layout_marginBottom="360dp"
-        android:text="Panjang:"
-        android:textColor="@color/black"
-        android:textSize="30dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
-
-    <TextView
-        android:id="@+id/textView8"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="256dp"
-        android:layout_marginBottom="296dp"
-        android:text="Lebar:"
-        android:textColor="@color/black"
-        android:textSize="30dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
-
     <EditText
-        android:id="@+id/panjang"
+        android:id="@+id/jari2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="9dp"
-        android:layout_marginEnd="40dp"
-        android:layout_marginBottom="352dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="248dp"
         android:ems="10"
         android:inputType="number"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/textView4" />
 
+    <TextView
+        android:id="@+id/textView44"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="252dp"
+        android:layout_marginBottom="256dp"
+        android:text="Jari-Jari:"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/textView43"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="252dp"
+        android:layout_marginBottom="320dp"
+        android:text="Tinggi:"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
     <EditText
-        android:id="@+id/lebar"
+        android:id="@+id/tinggi5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="9dp"
-        android:layout_marginEnd="40dp"
-        android:layout_marginBottom="288dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="312dp"
         android:ems="10"
         android:inputType="number"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -92,26 +92,23 @@
         app:layout_constraintStart_toEndOf="@+id/textView4" />
 
     <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="396dp"
-        android:layout_height="201dp"
+        android:id="@+id/imageView11"
+        android:layout_width="269dp"
+        android:layout_height="261dp"
+        android:layout_marginEnd="72dp"
         android:layout_marginBottom="8dp"
-        app:layout_constraintBottom_toTopOf="@+id/textView6"
+        app:layout_constraintBottom_toTopOf="@+id/textView42"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.466"
-        app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/persegipanjang" />
+        app:srcCompat="@drawable/tabung" />
 
     <TextView
-        android:id="@+id/textView6"
+        android:id="@+id/textView42"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="176dp"
-        android:layout_marginEnd="177dp"
-        android:layout_marginBottom="476dp"
-        android:text="Masukan panjang dan lebar dari persegi panjang : "
+        android:layout_marginStart="68dp"
+        android:layout_marginBottom="392dp"
+        android:text="Masukan tinggi dan jari-jari dari tabung :"
         android:textSize="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

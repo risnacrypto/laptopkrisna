@@ -14,6 +14,33 @@
         android:theme="@style/Theme.Laptopkrisna"
         tools:targetApi="31">
         <activity
+            android:name=".bola"
+            android:exported="false" />
+        <activity
+            android:name=".limassegitiga"
+            android:exported="false" />
+        <activity
+            android:name=".limaspersegipanjang"
+            android:exported="false" />
+        <activity
+            android:name=".limaspersegi"
+            android:exported="false" />
+        <activity
+            android:name=".prisma"
+            android:exported="false" />
+        <activity
+            android:name=".kerucut"
+            android:exported="false" />
+        <activity
+            android:name=".tabung"
+            android:exported="false" />
+        <activity
+            android:name=".balok"
+            android:exported="false" />
+        <activity
+            android:name=".persegi"
+            android:exported="false" />
+        <activity
             android:name=".layanglayang"
             android:exported="false" />
         <activity
@@ -35,7 +62,7 @@
             android:name=".PersegiPanjang"
             android:exported="false" />
         <activity
-            android:name=".Persegi"
+            android:name=".kubus"
             android:exported="false" />
         <activity
             android:name=".RuangList"

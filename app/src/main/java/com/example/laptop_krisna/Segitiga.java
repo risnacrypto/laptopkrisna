@@ -7,6 +7,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class Segitiga extends AppCompatActivity {
     EditText spanjang,stinggi;
@@ -26,13 +27,22 @@ public class Segitiga extends AppCompatActivity {
         shitung.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                double bilangan1,bilangan2,hasil;
-                bilangan1=Double.valueOf(spanjang.getText().toString());
-                bilangan2=Double.valueOf(stinggi.getText().toString());
+                double bilangan1=0.0,bilangan2=0.0,hasil;
+                if (spanjang.getText().toString().equals("")){
+                    Toast.makeText(getApplicationContext(), "Panjang belum di isi",
+                            Toast.LENGTH_LONG).show();
+                } else if (stinggi.getText().toString().equals("")) {
+                    Toast.makeText(getApplicationContext(), "Tinggi belum di isi",
+                            Toast.LENGTH_LONG).show();
+                }
+                else {
+                    bilangan1 = Double.valueOf(spanjang.getText().toString());
+                    bilangan2 = Double.valueOf(stinggi.getText().toString());
+                    hasil= (bilangan1*bilangan2)/2;
+                    String hasill =String.valueOf(hasil);
+                    shasil.setText(hasill);
+                }
 
-                hasil= (bilangan1*bilangan2)/2;
-                String hasill =String.valueOf(hasil);
-                shasil.setText(hasill);
 
             }
         });

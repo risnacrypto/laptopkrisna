@@ -7,6 +7,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class layanglayang extends AppCompatActivity {
     EditText llpanjang1,llpanjang2;
@@ -26,13 +27,21 @@ public class layanglayang extends AppCompatActivity {
         llhitung.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                double bilangan1,bilangan2,hasil;
-                bilangan1=Double.valueOf(llpanjang1.getText().toString());
-                bilangan2=Double.valueOf(llpanjang2.getText().toString());
-                hasil= (bilangan1*bilangan2)/2;
-                String hasill =String.valueOf(hasil);
-                llhasil.setText(hasill);
-
+                double bilangan1=0.0,bilangan2=0.0,hasil;
+                if (llpanjang1.getText().toString().equals("")){
+                    Toast.makeText(getApplicationContext(), "Panjang d1 belum di isi",
+                            Toast.LENGTH_LONG).show();
+                } else if (llpanjang2.getText().toString().equals("")) {
+                    Toast.makeText(getApplicationContext(), "Panjang d2 belum di isi",
+                            Toast.LENGTH_LONG).show();
+                }
+                else {
+                    bilangan1 = Double.valueOf(llpanjang1.getText().toString());
+                    bilangan2 = Double.valueOf(llpanjang2.getText().toString());
+                    hasil = (bilangan1 * bilangan2) / 2;
+                    String hasill = String.valueOf(hasil);
+                    llhasil.setText(hasill);
+                }
             }
         });
     }
